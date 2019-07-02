@@ -4,22 +4,52 @@
         <title>Bootstrap Portfolio</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
-    <body>
-            <header>
-                    <nav class="navbar sticky-top navbar-light bg-light">
-                            <a class="navbar-brand" href="#" style="padding: 15px; background-color: #4aaaa5; color: white; margin-left: 285px; width: 200px; text-align: center">Drew Pepin</a>
-                            <ul class="nav justify-content-end">
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./index.html" style="color: #777777">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./contact.html" style="color: #777777">Contact</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./portfolio.html" style="color: #777777">Portfolio</a>
-                                    </li>
-                                  </ul>
-                          </nav>
-            </header>
+    <body style="background-color: lightgrey">
+      <header>
+              <nav class="navbar sticky-top navbar-light bg-light border-bottom border-dark">
+                      <a class="navbar-brand p-3 bg-info text-light text-center w-25" href="#" style="margin-left: 285px">Drew Pepin</a>
+                      <ul class="nav justify-content-end">
+                              <li class="nav-item border-right border-secondary">
+                                <a class="nav-link text-secondary" href="./index.html">About</a>
+                              </li>
+                              <li class="nav-item border-right border-secondary">
+                                <a class="nav-link text-secondary" href="./contact.html">Contact</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-secondary" href="./portfolio.html">Portfolio</a>
+                              </li>
+                      </ul>
+              </nav>
+      </header>
+      <div class="container">
+        <div class="row">
+                <div class="col-md-8 offset-md-2 mt-4">
+                        <div class="jumbotron bg-light">
+                                <h2 class="text-info m-auto">Contact</h2>
+                                <hr class="mb-4"> 
+                              <form class="mb-1">
+                                    <div class="form-group text-secondary">
+                                      <label for="exampleFormControlInput1">Name</label>
+                                      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                                      </div>        
+                                    <div class="form-group text-secondary">
+                                      <label for="exampleFormControlInput1">Email</label>
+                                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                      </div>  
+                                    <div class="form-group text-secondary">
+                                        <label for="exampleFormControlTextarea1">Message</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                        </div>                            
+                        </div>
+                    
+                </div>
+          </div>
+        </div>
+      <footer>
+        <nav class="navbar fixed-bottom navbar-light"><nav class="navbar fixed-bottom bg-secondary border-top border-info">
+                <a class="navbar-brand m-auto text-light">Copyright</a>
+              </nav>
+              </nav>
+        </footer>
     </body>
 </html>
